@@ -3,10 +3,10 @@ import java.util.Scanner;
 	{	
 	public static void main(String[] args)
 	{		
-		String a; 		
+				
 		Scanner in=new Scanner(System.in);
 		System.out.println("Enter the string");
-		a=in.next();
+		String a = in.next();
 		char[] stringToCharArray = a.toCharArray();
 		for (char r : stringToCharArray) 
 		{
